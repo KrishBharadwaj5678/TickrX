@@ -6,8 +6,7 @@ st.set_page_config(
     page_icon="icon.png",
     menu_items={
         "About":
-        """TickrX offers immediate access to NASDAQ stock prices. Simply enter a stock symbol to view the latest market data in seconds. Ideal for investors and traders who need fast, reliable stock information. Experience seamless tracking with TickrX—your go-to tool for real-time market insights.
-"""
+        "TickrX offers immediate access to NASDAQ stock prices. Simply enter a stock symbol to view the latest market data in seconds. Ideal for investors and traders who need fast, reliable stock information. Experience seamless tracking with TickrX—your go-to tool for real-time market insights."
     })
 
 st.write("<h2 style='color:#FF8343;'>Real Time NASDAQ Stock Tracker</h2>",
@@ -37,4 +36,4 @@ if btn:
       else:
         st.info("Stock Information Unavailable.")
   else:
-    st.warning("Provide Stock Symbol")
+    st.warning("Provide Stock Symbol!")
