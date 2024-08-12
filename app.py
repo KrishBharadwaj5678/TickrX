@@ -36,4 +36,4 @@ if btn:
       else:
         st.info("Stock Information Unavailable.")
   else:
-    st.warning("Provide Stock Symbol!")
+    st.warning("Provide Stock Symbol.")
